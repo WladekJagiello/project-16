@@ -1,3 +1,7 @@
 .header-networks-icon {
   stroke: var(--white);
 }
+
+.simply {
+  font-size: 40px;
+}
