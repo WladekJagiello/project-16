@@ -1,3 +1,132 @@
 .recipe-list {
   list-style-type: disc;
+  padding-left: 1rem;
+}
+
+.recipe-title {
+  margin-bottom: 32px;
+
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+
+  text-align: center;
+
+  color: var(--black);
+}
+
+@media screen and (min-width: 768px) {
+  .recipe-title {
+    margin-bottom: 50px;
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
+
+.title-accent {
+  color: var(--orange);
+}
+
+.recipe-containt-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .recipe-containt-container {
+    width: 614px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .recipe-containt-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+  }
+}
+
+.recipe-img {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(pastry-chef-preparing-chocolate-cake.jpg);
+  border-radius: 15px;
+}
+
+.receipe-text-container {
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 14px;
+  padding-right: 14px;
+
+  background-color: var(--white);
+
+  border-radius: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .receipe-text-container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 32px;
+    padding-right: 102px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .receipe-text-container {
+    width: 516px;
+
+    margin-top: 0px;
+    padding-right: 59px;
+  }
+}
+
+.recipe-text {
+  margin-bottom: 0px;
+
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+
+  color: var(--black);
+}
+
+.recipe-list-container {
+}
+
+.recipe-list {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+@media screen and (min-width: 768px) {
+  .recipe-list {
+    margin-top: 28px;
+  }
+}
+
+.recipe-item-text {
+  margin-bottom: 0px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+
+  color: var(--black);
+}
+
+.recipe-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .recipe-item:not(:last-child) {
+    margin-bottom: 24px;
+  }
 }
