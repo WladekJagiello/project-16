@@ -7,6 +7,16 @@ const swiper = new Swiper('.swiper', {
     clickable: true,
   },
 
-  slidesPerView: 4,
   spaceBetween: 18,
+  slidesPerView: 1,
+
+  breakpoints: {
+    768: {
+      slidesPerView: 2.5,
+    },
+
+    1200: {
+      slidesPerView: 4,
+    },
+  },
 });
