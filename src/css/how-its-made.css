@@ -1,6 +1,7 @@
 .recipe-list {
   list-style-type: disc;
   padding-left: 1rem;
+  list-style-image: url(/img/ellipse-for-list-style.svg);
 }
 
 .recipe-title {
