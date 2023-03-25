@@ -36,3 +36,16 @@ main {
   padding-right: 32px;
   padding-left: 32px;
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+ul {
+  list-style: none;
+}
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
