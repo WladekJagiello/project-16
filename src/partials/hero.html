@@ -1,27 +1,140 @@
 <section class="hero">
+  <h1 class="hidden-title is-hidden">Treat yourself</h1>
   <div class="container">
-    <h2 class="hero-title">
+    <h2 class="hero-subtitle">
       Treat yourself or a loved one to our finest ingredients for a moment of
-      pure delight! ЗМІНИ ЗМІНИ ЗМІНИ !!!!!
+      pure delight!
     </h2>
-
     <ul class="hero-buttons-list">
       <li class="hero-buttons-item">
-        <button class="left-button" type="button">Buy now</button>
+        <button class="left-button" type="button" data-modal-open>
+          Buy now
+        </button>
       </li>
-
       <li class="hero-buttons-item">
-        <button class="right-button" type="button">How it’s made</button>
+        <a href="#how-it's-made">How it’s made</a>
       </li>
     </ul>
-
     <div class="hero-scroll">
-      <span class="scroll-text">scroll down</span>
-      <button class="scroll-button">
-        <svg>
+      <a href="#footer">
+        scroll down
+        <svg width="38" height="38" class="hero-icon">
           <use href="/img/icons.svg#icon-hero-vector"></use>
         </svg>
-      </button>
+      </a>
     </div>
   </div>
+  <div class="modal-buy-now is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="modal-close" data-modal-close>
+        <svg width="8" height="8" class="close-icon">
+          <use href="/img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <h3><span>bUY</span> NOW</h3>
+      <ul class="modal-buy-items">
+        <li class="modal-buy-item">
+          <img
+            srcset="
+              /img/buy-now-1-desk-167.jpg 1x,
+              /img/buy-now-1-desk-334.jpg 2x"
+            src=""
+            alt="картинка_2"
+            width="167"
+            height="148"
+          />
+          <button class="buy-product btn">100 g</button>
+        </li>
+        <li class="modal-buy-item">
+          <img srcset="" src="" alt="картинка_3" width="167" height="148" />
+          <button class="buy-product btn">200 g</button>
+        </li>
+        <li class="modal-buy-item">
+          <img srcset="" src="" alt="картинка_3" width="167" height="148" />
+          <button class="buy-product btn">300 g</button>
+        </li>
+      </ul>
+      <form class="modal-form">
+        <div class="modal-field">
+          <label for="user-name" class="input-text">Personal information</label>
+          <div class="input-wrap">
+            <input
+              type="text"
+              class="modal-input"
+              name="user-name"
+              placeholder="Surname"
+              required
+              id="user-name"
+            />
+            <input
+              type="text"
+              class="modal-input"
+              name="user-surname"
+              placeholder="Name"
+              required
+              id="user-surname"
+            />
+          </div>
+          <label for="user-email" class="input-text">Email</label>
+
+          <div class="input-wrap">
+            <input
+              type="email"
+              class="modal-input"
+              name="user-email"
+              placeholder="Enter your email"
+              required
+              id="user-email"
+              />
+          </div>
+          <label for="user-tel" class="input-text">Phone number</label>
+            <div class="input-wrap">
+              <input
+                type="tel"
+                class="modal-input"
+                name="user-tel"
+                placeholder="Phone number"
+                id="user-tel"
+              />
+              <svg class="input-icon" width="32" height="32">
+                <use href="./img/icons.svg#"></use>
+              </svg>
+            </div>    
+          <label for="user-card" class="input-text">Card number</label>
+          <div class="input-wrap">
+            <input
+              type="card"
+              class="modal-input"
+              name="user-card"
+              placeholder="Enter card"
+              required
+              id="user-card"
+              />
+        </div>
+        <label for="user-comment" class="input-text">Comment</label>
+         <div class="modal-field">
+            <textarea
+              class="modal-input comment"
+              name="user-comment"
+              placeholder="Enter text"
+              id="user-comment"
+            ></textarea>
+          </div>
+        <button type="submit" data-modal-open data-modal-close>Submit</button> 
+      </form>
+    </div>
+  </div>
+  
+  <div class="modal-thank-you is-hidden" data-modal>
+    <div class="modal">
+      <button type="button" class="modal-close" data-modal-close >
+        <svg width="8" height="8" class="close-icon">
+          <use href="/img/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <h3>THANK YOU!</h3>
+      <p>We are glad that you ordered our chocolate and we are giving you a 20% discount on all our products.</p>
+    </div>
+  </div> 
+   
 </section>
