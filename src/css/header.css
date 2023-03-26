@@ -1,6 +1,6 @@
 /* ----------------------add by Vadym--------------- */
 .header-networks-icon {
-  stroke: var(--white);
+  
 }
 
 .simply {
@@ -64,20 +64,21 @@ img {
   }
 }
 
-/* .header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 188px;
+.header {
+  color: #111111;
+  background-color: var(--white);
+  /* display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 188px;
   
-    position: absolute;
-    width: 1136px;
-    height: 24px;
-    left: 32px;
-    top: 24px;
-    
-} */
+  position: absolute;
+  width: 1136px;
+  height: 24px;
+  left: 32px;
+  top: 24px;     */
+} 
 /* --------------------logo-------- */
 .logo {
   width: 185px;
@@ -237,10 +238,13 @@ img {
 
 
 .header-networks-icon {
+  stroke: #111111;
+  fill-opacity: 0;
   width: 24px;
   height: 24px;
   gap: 18px;
-  color: #111111;
+
+  
 
   /* display: block;
   padding: 0px; */
@@ -364,4 +368,10 @@ img {
 
 .mobile-socials-icon {
   display: block;
+  stroke: var(--white);
+  fill-opacity: 0;
+  width: 20px;
+  height: 20px;
+  margin-left: 60px;
+  /* margin-right: 18px; */
 }
