@@ -96,3 +96,60 @@
   color: var(--white);
   background-color: var(--orange);
 }
+
+.modal-our-products {
+  padding: 32px 24px;
+  width: 100%;
+  max-width: 311px;
+  background-color: var(--white);
+}
+
+.modal-our-products .modal-title {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--black);
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.review-form-input {
+  display: block;
+  padding: 14px 18px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: var(--black);
+  border: 2px solid rgba(17, 17, 17, 0.05);
+  border-radius: 8px;
+}
+
+.review-form-input::placeholder {
+  color: rgba(64, 64, 64, 0.3);
+}
+
+.review-form-input:not(:last-child) {
+  margin-bottom: 14px;
+}
+
+.review-form-input.textarea {
+  resize: none;
+  height: 91px;
+}
+
+.form-group {
+  margin-bottom: 18px;
+}
+
+.review-button {
+  padding: 12px 28px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.21;
+  color: var(--white);
+  border: none;
+  border-radius: 100px;
+  background-color: var(--orange);
+}

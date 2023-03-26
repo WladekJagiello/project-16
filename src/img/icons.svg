@@ -19,8 +19,8 @@
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.8571" d="M2.286 16h27.429M2.286 6.857h27.429M2.286 25.143h27.429"></path>
 </symbol>
 <symbol id="icon-close" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M24 8l-16 16"></path>
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.9091" d="M8 8l16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M24 8l-16 16"></path>
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M8 8l16 16"></path>
 </symbol>
 <symbol id="icon-header-chocolate" viewBox="0 0 32 32">
 <path fill="#fcf1e0" style="fill: var(--color3, #fcf1e0)" d="M3.944 20.076l10.777-17.424 0.64-0.675 8.235 5.491 0.057 3.315 2.009 3.28-8.88 14.076-12.839-8.063z"></path>
