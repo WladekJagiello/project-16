@@ -30,12 +30,12 @@ const swiperReviews = new Swiper(".reviews .swiper", {
     clickable: true,
   },
 
-  spaceBetween: 18,
   slidesPerView: 1,
 
   breakpoints: {
     768: {
-      slidesPerView: 2.5,
+      spaceBetween: 16,
+      slidesPerView: 2,
     },
 
     1200: {
