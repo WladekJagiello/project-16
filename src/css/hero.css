@@ -2,6 +2,7 @@
   height: 600px;
   background-image: url('/img/hero-desk.jpg');
 }
+
 .modal-buy-now,
 .modal-thank-you {
   position: fixed;
