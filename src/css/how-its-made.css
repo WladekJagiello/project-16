@@ -1,20 +1,17 @@
 .recipe-list {
   list-style-type: disc;
   padding-left: 1rem;
-  list-style-image: url(/img/ellipse-for-list-style.svg);
+  list-style-image: url('/img/ellipse-for-list-style.svg');
 }
 
 .recipe-title {
   margin-bottom: 32px;
-
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-
   text-align: center;
-
   color: var(--black);
 }
 
@@ -104,16 +101,11 @@
 
 .recipe-text {
   margin-bottom: 0px;
-
   font-weight: 600;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: -0.02em;
-
   color: var(--black);
-}
-
-.recipe-list-container {
 }
 
 .recipe-list {
