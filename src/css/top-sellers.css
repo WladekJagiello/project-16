@@ -25,6 +25,10 @@ margin-bottom: 32px;
 
 /* ------------------------  PHOTO  ----------------------- */
 
+.sellers-item{
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width:1199px){
 .sellers-item:nth-last-child(1){
   display: none;
@@ -57,6 +61,7 @@ margin-bottom: 32px;
   }
 }
 
+
 /* --------------------------  TEXT  ------------------------ */
 
 .sellers-text{
@@ -87,6 +92,23 @@ margin-bottom: 32px;
 
   }
 }
+
+.sellers-text-mob{
+  margin-bottom: 32px;
+}
+
+@media screen and (min-width: 768px){
+  .sellers-text-mob{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .sellers-text{
+    display: none;
+  }
+}
+
 
 /* -------------------  BUTTON  -------------------- */
 
@@ -119,3 +141,21 @@ margin-bottom: 32px;
     margin: 0;
   } 
 }
+
+@media screen and (min-width: 768px){
+  .sellers-button{
+    font-size: 18px;
+
+    width: 162px;
+    height: 50px;
+
+    margin: 0;
+  } 
+}
+
+.sellers-button:hover,
+.sellers-button:focus{
+  background-color: #FCF1E0;
+  color: #FD9222;
+}
+
