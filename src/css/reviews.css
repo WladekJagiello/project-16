@@ -15,10 +15,10 @@
 }
 
 .reviews-title {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.17em;
-  letter-spacing: -0.03em;
+  font-size: var(--font-size-hh);
+  font-weight: var(--font-weight-hh);
+  line-height: var(--line-height-h);
+  letter-spacing: var(--letter-spacing-h);
   text-transform: uppercase;
   margin-bottom: 32px;
 }
@@ -54,27 +54,26 @@
   top: 0;
   left: 50%;
   transform: translateX(-50%) translateY(-50%);
-  z-index: 999;
 }
 
 .reviews-name {
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.33;
+  font-size: var(--font-size-ppp);
+  font-weight: var(--font-weight-hh);
+  line-height: var(--line-height-hh);
 }
 
 .reviews-text {
-  font-size: 14px;
-  line-height: 1.29;
-  letter-spacing: -0.02em;
+  font-size: var(--font-size-pp);
+  line-height: var(--line-height-hh);
+  letter-spacing: var(--letter-spacing-p);
   color: rgba(17, 17, 17, 0.7);
 }
 
 .reviews-button {
   padding: 12px 28px;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.21;
+  font-size: var(--font-size-pp);
+  font-weight: var(--font-weight-hh);
+  line-height: var(--line-height-h);
   color: inherit;
   border: 1px solid var(--orange);
   border-radius: 100px;
@@ -86,8 +85,7 @@
 @media (min-width: 768px) {
   .reviews-button {
     padding: 14px 40px;
-    font-size: 18px;
-    line-height: 1.22;
+    font-size: var(--font-size-ppp);
   }
 }
 
@@ -112,11 +110,11 @@
 }
 
 .modal-reviews .modal-title {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.2;
+  font-size: var(--font-size-h);
+  font-weight: var(--font-weight-hh);
+  line-height: var(--line-height-h);
   color: var(--black);
-  letter-spacing: -0.03em;
+  letter-spacing: var(--letter-spacing-h);
   text-transform: uppercase;
   margin-bottom: 32px;
   max-width: 255px;
@@ -124,8 +122,7 @@
 
 @media (min-width: 768px) {
   .modal-reviews .modal-title {
-    font-size: 24px;
-    line-height: 1.17;
+    font-size: var(--font-size-hh);
     max-width: 298px;
     margin-bottom: 40px;
   }
@@ -155,9 +152,9 @@
   display: block;
   padding: 14px 18px;
   width: 100%;
-  font-size: 14px;
-  line-height: 1.21;
-  letter-spacing: -0.02em;
+  font-size: var(--font-size-pp);
+  line-height: var(--line-height-h);
+  letter-spacing: var(--letter-spacing-p);
   color: var(--black);
   border: 2px solid rgba(17, 17, 17, 0.05);
   border-radius: 8px;
@@ -166,8 +163,7 @@
 @media (min-width: 768px) {
   .review-form-input {
     padding: 22px 24px;
-    font-size: 18px;
-    line-height: 1.22;
+    font-size: var(--font-size-ppp);
   }
 }
 
@@ -202,9 +198,9 @@
 
 .review-button {
   padding: 12px 28px;
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.21;
+  font-size: var(--font-size-pp);
+  font-weight: var(--font-weight-hh);
+  line-height: var(--line-height-h);
   color: var(--white);
   border: none;
   border-radius: 100px;
@@ -248,23 +244,22 @@
 }
 
 .label-text {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.21;
-  letter-spacing: -0.02em;
+  font-size: var(--font-size-pp);
+  font-weight: var(--font-weight-h);
+  line-height: var(--line-height-h);
+  letter-spacing: var(--letter-spacing-p);
   margin: 0 8px;
 }
 
 @media (min-width: 768px) {
   .label-text {
-    font-size: 18px;
-    line-height: 1.22;
+    font-size: var(--font-size-ppp);
     margin-left: 18px;
     margin-right: 32px;
   }
 }
 
-.modal-feedback {
+.modal-gratitude {
   max-width: 311px;
   max-height: 350px;
   width: 100%;
@@ -278,7 +273,7 @@
 }
 
 @media (min-width: 768px) {
-  .modal-feedback {
+  .modal-gratitude {
     max-width: 516px;
     max-height: 414px;
     background-image: url(/img/bg-modal.png);
@@ -287,36 +282,35 @@
   }
 }
 
-.modal-feedback .modal-title {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+.modal-gratitude .modal-title {
+  font-size: var(--font-size-h);
+  font-weight: var(--font-weight-hh);
+  line-height: var(--line-height-h);
+  letter-spacing: var(--letter-spacing-p);
   text-transform: uppercase;
   color: var(--beige);
   margin-bottom: 8px;
 }
 
 @media (min-width: 768px) {
-  .modal-feedback .modal-title {
-    font-size: 24px;
-    line-height: 1.17;
+  .modal-gratitude .modal-title {
+    font-size: var(--font-size-hh);
   }
 }
 
-.modal-feedback .modal-text {
+.modal-gratitude .modal-text {
   max-width: 164px;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: -0.02em;
+  font-size: var(--font-size-pp);
+  line-height: var(--line-height-p);
+  letter-spacing: var(--letter-spacing-p);
   color: var(--white);
 }
 
 @media (min-width: 768px) {
-  .modal-feedback .modal-text {
+  .modal-gratitude .modal-text {
     max-width: 100%;
-    font-size: 18px;
-    line-height: 1.33;
+    font-size: var(--font-size-ppp);
+    line-height: var(--line-height-hh);
   }
 }
 
@@ -349,7 +343,7 @@
   }
 }
 
-.modal-feedback .modal-close {
+.modal-gratitude .modal-close {
   position: absolute;
   top: 14px;
   right: 14px;
@@ -365,19 +359,19 @@
 }
 
 @media (min-width: 768px) {
-  .modal-feedback .modal-close {
+  .modal-gratitude .modal-close {
     top: 24px;
     right: 24px;
   }
 }
 
-.modal-feedback .modal-icon {
+.modal-gratitude .modal-icon {
   width: 16px;
   height: 16px;
   stroke: #d44528;
 }
 
-.modal-feedback .modal-close:hover,
-.modal-feedback .modal-close:focus {
+.modal-gratitude .modal-close:hover,
+.modal-gratitude .modal-close:focus {
   stroke: #d44528;
 }
