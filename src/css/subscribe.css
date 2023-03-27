@@ -1,6 +1,6 @@
 .subscribe {
   height: 370px;
-  background-image: url('/img/Subcribe-desk.jpg');
+  background-image: url("../img/icons.svg#icon-marker");
 }
 
 .subscribe .container {
