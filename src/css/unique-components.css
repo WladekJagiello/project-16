@@ -9,7 +9,7 @@
 .xxx {
   position: absolute;
   top: 25%;
-  left: 40%;
+  left: 45%;
 }
 
 .animate__animated {
@@ -18,7 +18,7 @@
 
 .aaa {
   position: absolute;
-  left: -15%;
+  left: -10%;
   font-size: xx-large;
   color: blue;
   text-shadow: 2px 0 2px #8c1b21, 0 2px 2px #8c1b21, -2px 0 2px #8c1b21,
