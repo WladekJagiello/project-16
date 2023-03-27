@@ -33,6 +33,7 @@ max-width: 283px;
 
 .components-text {
 font-family: inherit;
+margin-top: 24px;
 margin-bottom: 32px;
 font-weight: 400;
 font-size: 14px;
@@ -46,6 +47,8 @@ letter-spacing: -0.02em;
     margin-top: 128px;
   }
   .components-text {
+    margin-bottom: 51px;
+    margin-top: 28px;
     max-width: 486px;
     margin-left: auto;
     margin-right: auto;
