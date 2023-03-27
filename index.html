@@ -21,7 +21,7 @@
     
     <title>Simply Chocolate</title>
     <script type="module" crossorigin src="/project-16/assets/index-77967bdc.js"></script>
-    <link rel="stylesheet" href="/project-16/assets/index-f8c701b7.css">
+    <link rel="stylesheet" href="/project-16/assets/index-7a5b5e11.css">
   </head>
 
   <body>
@@ -580,51 +580,81 @@
   </div>
 </section>
 
-<div class="modal modal-our-products" data-modal="1">
-  <button class="modal-close" type="button">
-    <svg class="modal-icon js-modal-close">
+<div class="modal modal-reviews" data-modal="1">
+  <button class="modal-close js-modal-close" type="button">
+    <svg class="modal-icon">
       <use href="/project-16/assets/icons-aed59080.svg#icon-close"></use>
     </svg>
   </button>
 
   <h2 class="modal-title">
-    leave a review<br />about <span class="highlight">our chocolate</span>
+    <span class="modal-title-mobile">Leave a review</span> about
+    <span class="highlight">our chocolate</span>
   </h2>
 
   <form class="review-form" name="review-form">
     <div class="form-group" role="group">
-      <input
-        class="review-form-input"
-        type="text"
-        name="review-name"
-        placeholder="Name"
-      />
+      <div class="review-form-field">
+        <input
+          class="review-form-input"
+          type="text"
+          name="review-name"
+          placeholder="Name"
+        />
+      </div>
 
-      <input
-        class="review-form-input"
-        type="email"
-        name="review-email"
-        placeholder="Enter your email"
-      />
+      <div class="review-form-field">
+        <input
+          class="review-form-input"
+          type="email"
+          name="review-email"
+          placeholder="Enter your email"
+        />
+      </div>
 
-      <label class="">
+      <div class="review-form-field">
         <input
           class="review-form-input"
           type="tel"
           name="review-phone"
+          id="label-review-phone"
           placeholder="Phone number"
         />
-      </label>
+        <label class="label-review-phone" for="label-review-phone">
+          <svg class="flag-icon">
+            <use href="/project-16/assets/icons-aed59080.svg#icon-prapor"></use>
+          </svg>
+          <span class="label-text">+380</span>
+        </label>
+      </div>
 
-      <textarea
-        class="review-form-input textarea"
-        name="review-text"
-        placeholder="Enter text"
-      ></textarea>
+      <div class="review-form-field">
+        <textarea
+          class="review-form-input textarea"
+          name="review-text"
+          placeholder="Enter text"
+        ></textarea>
+      </div>
     </div>
 
-    <button class="review-button" type="submit">Send</button>
+    <button
+      class="review-button js-open-modal js-modal-close"
+      type="submit"
+      data-modal="2"
+    >
+      Send
+    </button>
   </form>
+</div>
+
+<div class="modal modal-feedback" data-modal="2">
+  <button class="js-modal-close modal-close" type="button">
+    <svg class="modal-icon">
+      <use href="/project-16/assets/icons-aed59080.svg#icon-close"></use>
+    </svg>
+  </button>
+  <h2 class="modal-title">thank you<br />for your feedback!</h2>
+  <p class="modal-text">We are so happy to hear from you!</p>
 </div>
 
 <div class="overlay js-overlay-modal"></div>
