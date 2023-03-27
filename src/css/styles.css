@@ -12,6 +12,7 @@
 @import url("./modal.css");
 
 :root {
+  --animate-duration: 20s;
   --background: #fafafa;
   --purple: #1e1823;
   --orange: #fd9222;
