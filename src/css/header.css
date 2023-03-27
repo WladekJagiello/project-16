@@ -1,11 +1,3 @@
-/* ----------------------add by Vadym--------------- */
-.header-networks-icon {
-  
-}
-
-.simply {
-  font-size: 40px;
-}
 /* -----------------reset----------------- */
 .link {
   text-decoration: none;
@@ -28,104 +20,69 @@ img {
   height: 1px;
   margin: -1px;
   border: 0;
-  padding: 0;
-  
+  padding: 0;  
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
 /* ---------components-------- */
-/* .container {
-  max-width: 375px;
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
-} */
 
-/* @media screen and (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
 
-@media screen and (min-width: 1200px) {
-  .container {
-    max-width: 1136px;
-  }
-} */
-/*--------------- header------------------------- */
+/*-------------header----------------- */
 
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .header-container {
     display: flex;
     align-items: center;
   }
-}
+} */
 
 .header {
   color: #111111;
-  background-color: var(--white);
-  /* display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0px;
-  gap: 188px;
-  
-  position: absolute;
-  width: 1136px;
-  height: 24px;
-  left: 32px;
-  top: 24px;     */
+  background-color: var(--white);  
 } 
 /* --------------------logo-------- */
-.logo {
-  width: 185px;
-  height: 20px;
-    
-  color: #111111;
-  font-family: Montserrat, sans-serif;
-  font-style: italic;
-  font-weight: 700;
-  letter-spacing: -0.03em;
-  font-size: 18px;
-  line-height: 1.11;
-  text-transform: uppercase;
-  background-color: var();
+.logo {   
+   font-weight: 700;
+    font-size: 14px;
+    line-height: 1.29;    
+    letter-spacing: -0.03em;
 }
 
-.header {}
-
-.container {}
-
-.header-container {}
-
+@media screen and (min-width: 1200px) {
+  .logo {
+    font-size: 18px;
+    line-height: 1.11;
+  }
+}
+.simply {
+  margin-left: 4px;
+}
+/* -------------Logo-icon */
+.logo-icon {
+  width: 28px;
+  height: 28px;
+}
+@media screen and (min-width: 1200px) {
+  .logo-icon {
+    width: 32px;
+    height: 32px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 188px;
+  }
+}
 /* ---------------------navigation------------ */
 .navbar {  
   display: flex;
   flex-direction: row;
-  width: 213px;
   align-items: center;
   justify-content: space-between;
-}
-@media screen and (min-width: 1200px) {
-  .main-nav {
-    gap: 76px;
-  }
-}
-/* ------------------------------------------------ */
-.logo {}
-
-
-
-.simply {}
-
-.chocolate {}
-
-.logo-icon {
-  width: 24px;
-  height: 24px;
 }
 
 /* -----------menu-hamburger--------- */
@@ -141,8 +98,6 @@ img {
     display: none;
   }
 }
-.js-open-menu {}
-
 
 .icon-menu-burger {
   display: flex;
@@ -150,17 +105,18 @@ img {
   justify-content: center;
   width: 28px;
   height: 28px;
-  stroke: #111111;
-  border: 2px solid #111111;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  stroke: #111111;  
 }
 
 .header-nav-list {
   display: none;
 }
- @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) {
   .header-nav-list {
     display: flex;
-    gap: 40px;
+    gap: 24px;
   }
 } 
 
@@ -170,51 +126,27 @@ img {
     gap: 24px;
   }
 }
-.header-nav-item {}
-
-.current {}
-
 
 .nav-link {
   display: block;
-
   color: #111111;  
   font-weight: 500;
   line-height: 1.14;
   font-size: 14px;
-  letter-spacing: -0.02em;
-
-  
+  letter-spacing: -0.02em;  
   padding-top: 28px;
   padding-bottom: 36px;
-
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-  
-/* width: 43px;
-  height: 16px; */  
 }
+
 .nav-link:hover,
 .nav-link:focus {
   color: #FD9222;
 }
 
-
 .current-link {
   color: #FD9222;
 }
-/* .current {
-  position: relative;
-}
-.current::after {
-  position: absolute;
-  content: '';
-  bottom: -1px;
-  display: block;
-  width: 100%;
-  height: 4px;
-  border-radius: 2px;
-  background-color: #1E1823;
-} */
+
 /* -------------------network------------------- */
 .header-networks-list {
   display: none;
@@ -222,20 +154,15 @@ img {
 @media screen and (min-width: 768px) {
   .header-networks-list {
     display: flex;
-    gap: 4px;
-    /* flex-direction: column; */
+    gap: 18px;
   }
-}
+} 
 
-@media screen and (min-width: 1200px) {
+ @media screen and (min-width: 1200px) {
   .header-networks-list {
-    gap: 40px;
     flex-direction: row;
   }
 }
-
-.header-networks-item {}
-
 
 .header-networks-icon {
   stroke: #111111;
@@ -243,18 +170,6 @@ img {
   width: 24px;
   height: 24px;
   gap: 18px;
-
-  
-
-  /* display: block;
-  padding: 0px; */
-  
-  /* transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width: 66px;
-  height: 24px;  */
 }
 
 .header-networks-icon:hover,
@@ -283,32 +198,26 @@ img {
     padding-top: 156px;
     background-color: #1E1823;
     z-index: 1;
-     transform: translateX(100%);
-    
+     transform: translateX(100%);    
      transition: transform 250ms ease-in-out;
   }
 }
 .mobile-menu.is-open {
   transform: translateX(0);
 }
-.js-menu-container {}
 
 .mobile-modal-close {
   display: flex;
   align-items: center;
   justify-content: center;
   cursor: pointer;
-
   width: 24px;
   height: 24px;
   border-radius: 50%;
   background-color: var(--footer-text-color);
-  
-
   position: absolute;
   top: 40px;
   right: 40px;
-
 }
 
 .mobile-modal-close:hover,
@@ -320,9 +229,12 @@ img {
 
 
 .mobile-close-icon {
+  stroke: var(--white);
+  fill-opacity: 0;
   height: 24px;
   width: 24px;
   fill: var(--white);
+  border: 0;
 }
 /* ----------------------------mobile-navigation------------ */
 .mobile-menu-items {
