@@ -8,10 +8,12 @@
 
 .xxx {
   position: absolute;
-  display: flex;
-  justify-content: center;
   top: 50%;
   left: 50%;
+}
+
+.animate__animated {
+  --animate-duration: 0.5s;
 }
 
 .aaa {
