@@ -1,5 +1,8 @@
 <svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <defs>
+<symbol id="icon-marker" viewBox="0 0 32 32">
+<path fill="#4c4c4c" style="fill: var(--color1, #4c4c4c); stroke: var(--color2, #eceded)" stroke="#eceded" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="4" d="M30 16c0 7.732-6.268 14-14 14s-14-6.268-14-14c0-7.732 6.268-14 14-14s14 6.268 14 14z"></path>
+</symbol>
 <symbol id="icon-prapor" viewBox="0 0 41 32">
 <path fill="#ffd700" style="fill: var(--color1, #ffd700)" d="M40.745 1.355h-40.434v30.090h40.434v-30.090z"></path>
 <path fill="#0057b7" style="fill: var(--color2, #0057b7)" d="M0.311 1.355h40.434v15.045h-40.434v-15.045z"></path>
@@ -52,5 +55,8 @@
 </symbol>
 <symbol id="icon-ukr-flag" viewBox="0 0 41 32"><path fill="gold" d="M40.745 1.355H.311v30.09h40.434V1.355z" style="fill:var(--color1, #ffd700)"/><path fill="#0057b7" d="M.311 1.355h40.434V16.4H.311V1.355z" style="fill:var(--color2, #0057b7)"/></symbol>
 <symbol id="icon-mastercard" viewBox="0 0 51 32"><path fill="#ed0006" d="M25.6 26.935a14.53 14.53 0 0 1-9.496 3.518c-8.086 0-14.641-6.593-14.641-14.726S8.018 1.001 16.104 1.001c3.624 0 6.94 1.324 9.496 3.518a14.532 14.532 0 0 1 9.497-3.518c8.086 0 14.64 6.593 14.64 14.726s-6.555 14.726-14.64 14.726c-3.624 0-6.94-1.324-9.497-3.518z" style="fill:var(--color3, #ed0006)"/><path fill="#f9a000" d="M25.6 26.935c3.148-2.701 5.144-6.72 5.144-11.209S28.748 7.219 25.6 4.518A14.53 14.53 0 0 1 35.097 1c8.086 0 14.64 6.593 14.64 14.726s-6.555 14.726-14.64 14.726c-3.624 0-6.94-1.324-9.497-3.518z" style="fill:var(--color4, #f9a000)"/><path fill="#ff5e00" d="M25.6 26.935c3.148-2.701 5.144-6.72 5.144-11.208S28.748 7.22 25.6 4.519c-3.148 2.701-5.144 6.72-5.144 11.208s1.996 8.507 5.144 11.208z" style="fill:var(--color5, #ff5e00)"/></symbol>
+<symbol id="icon-close-header" viewBox="0 0 32 32">
+<path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.5714" d="M29.334 2.667l-26.667 26.667M2.667 2.667l26.667 26.667"></path>
+</symbol>
 </defs>
 </svg>
