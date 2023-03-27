@@ -8,6 +8,8 @@
 
 .xxx {
   position: absolute;
+  display: flex;
+  justify-content: center;
   top: 50%;
   left: 50%;
 }
