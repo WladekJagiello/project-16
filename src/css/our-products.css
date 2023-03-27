@@ -17,10 +17,10 @@
 }
 
 .products-title {
-  font-size: 24px;
-  font-weight: 600;
-  line-height: 1.17em;
-  letter-spacing: -0.03em;
+  font-size: var(--font-size-hh);
+  font-weight: var(--font-weight-hh);
+  line-height: var(--line-height-h);
+  letter-spacing: var(--letter-spacing-h);
   text-transform: uppercase;
   margin-bottom: 32px;
 }
@@ -49,25 +49,25 @@
 
 .products-name {
   margin-bottom: 2px;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 1.33;
-  letter-spacing: -0.02em;
+  font-size: var(--font-size-ppp);
+  font-weight: var(--font-weight-hh);
+  line-height: var(--line-height-hh);
+  letter-spacing: var(--letter-spacing-p);
   text-transform: uppercase;
 }
 
 .products-text {
   margin-bottom: 18px;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: -0.02em;
+  font-size: var(--font-size-p);
+  line-height: var(--line-height-h);
+  letter-spacing: var(--letter-spacing-p);
   color: rgba(17, 17, 17, 0.7);
 }
 
 .products-price {
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 1.21;
+  font-size: var(--font-size-pp);
+  font-weight: var(--font-weight-hh);
+  line-height: var(--line-height-h);
   border: 1px solid rgba(17, 17, 17, 0.1);
   background-color: var(--background);
   border-radius: 100px;
