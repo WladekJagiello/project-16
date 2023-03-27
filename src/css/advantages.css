@@ -15,19 +15,19 @@
 
 .advantages-title {
   margin-top: 22px;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 1.2;
+  font-weight: var(--font-weight-hh);
+  font-size: var(--font-size-ppp);
+  line-height: var(--line-height-h);
   color: var(--white);
 }
 
 .advantages-text {
   max-width: 308px;
   margin-top: 18px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  font-weight: var(--font-weight-p);
+  font-size: var(--font-size-pp);
+  line-height: var(--line-height-h);
+  letter-spacing: var(--letter-spacing-p);
   color: rgba(255, 255, 255, 0.7);
 }
 
