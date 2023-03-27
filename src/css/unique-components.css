@@ -2,6 +2,10 @@
   list-style: none;
 }
 
+.components-span {
+  position: relative;
+}
+
 .xxx {
   position: absolute;
   top: 50%;
