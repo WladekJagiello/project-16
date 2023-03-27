@@ -24,10 +24,29 @@ margin-bottom: 32px;
 }
 
 /* ------------------------  PHOTO  ----------------------- */
-
+@media screen and (max-width:768px){
 .sellers-item{
   margin-bottom: 20px;
 }
+}
+
+@media screen and (min-width:768px){
+.sellers-item{
+  margin-right: 16px;
+}
+}
+
+@media screen and (min-width:1200px){
+.sellers-item:last-child{
+  margin-right: 0;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1199px){
+  .sellers-item:nth-child(n + 2){
+    margin-right: 0;
+  }
+  }
 
 @media screen and (max-width:1199px){
 .sellers-item:nth-last-child(1){
@@ -55,7 +74,6 @@ margin-bottom: 32px;
 @media screen and (min-width: 768px){
   .sellers-list{
     display: flex;
-    column-gap: 16px;
     margin-bottom: 32px;
 
   }
