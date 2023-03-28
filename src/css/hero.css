@@ -165,6 +165,10 @@
     width: 1056px;
   }
 }
+:root {
+  --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .hero-container {
 }
 @media screen and (min-width: 768px) {
@@ -179,29 +183,110 @@
   top: 0;
   width: 100%;
   height: 100%;
+  z-index: 4;
 }
 .modal-buy-now {
   width: 311px;
   height: 1007px;
   background: #fafafa;
+  padding: 32px 24px;
+  border-radius: 15px;
 }
 @media screen and (min-width: 768px) {
   .modal-buy-now {
     width: 609px;
     height: 1058px;
+    padding: 48px;
+    border-radius: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
+  .modal-buy-now {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
 }
-
+.modal-close-btnx {
+  position: absolute;
+  top: 14px;
+  left: 273px;
+  width: 24px;
+  height: 24px;
+  padding: 6px;
+  background-color: transparent;
+  /* border: 2px solid #111111;*/
+  border: none;
+  border-radius: 50%;
+  margin-left: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background var(--timing-function),
+    border-radius var(--timing-function),
+    background-color var(--timing-function);
+}
+@media screen and (min-width: 768px) {
+  .modal-close-btnx {
+    top: 24px;
+    left: 557px;
+    width: 28px;
+    height: 28px;
+    padding: 7px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .modal-close-btnx {
+  }
+}
+.modal-logo-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #111111;
+  margin-bottom: 32px;
+}
+@media screen and (min-width: 768px) {
+  .modal-logo-title {
+    font-size: 24px;
+    line-height: 1.17;
+  }
+}
+.modal-logo {
+  color: #fd9222;
+}
 .modal-thank-you {
   width: 311px;
   height: 350px;
   background: #fd9222;
   padding: 84px 24px 170px 68px;
-  background-image: url(/img/mod-thank-you-mob@1x.png);
+  background-image: url(/img/bg-mob-modal.png);
   background-repeat: no-repeat;
-  bottom: 0;
+  background-position: left bottom;
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .modal-thank-you {
+    background-image: url(/img/bg-mob-modal@2x.png);
+  }
+}
+@media screen and (min-width: 375px) {
+  .modal-thank-you {
+    background-image: url(/img/bg-modal.png);
+  }
+}
+@media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .modal-thank-you {
+    background-image: url(../img/bg-modal@2x.png);
+  }
 }
 @media screen and (min-width: 768px) {
   .modal-thank-you {
@@ -220,9 +305,11 @@
   left: 50%;
   transform: translate(-50%, -50%);
   border-radius: 15px;
+  z-index: 5;
   transition: transform 150ms ease, opacity 150ms ease;
   transition-delay: 400ms;
 }
+
 .modal-close-btn {
   position: absolute;
   top: 14px;
@@ -232,8 +319,9 @@
   background-color: #fd9222;
   border-radius: 50%;
   border: none;
-  padding: 16px;
-  fill: #fcf1e0;
+  padding: 14px;
+
+  /*fill: #fcf1e0;*/
   margin-left: auto;
   display: flex;
   justify-content: center;
@@ -249,7 +337,7 @@
   fill: rgba(241, 101, 41, 1);
 }
 @media screen and (min-width: 768px) {
-  .modal-close {
+  .modal-close-btn {
     top: 24px;
     left: 452px;
     width: 40px;

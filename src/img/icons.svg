@@ -58,5 +58,9 @@
 <symbol id="icon-close-header" viewBox="0 0 32 32">
 <path fill="none" stroke="#fff" style="stroke: var(--color1, #fff)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.5714" d="M29.334 2.667l-26.667 26.667M2.667 2.667l26.667 26.667"></path>
 </symbol>
+<symbol id="icon-close-x" viewBox="0 0 32 32">
+<path d="M32 3.224l-3.224-3.224-12.776 12.776-12.776-12.776-3.224 3.224 12.776 12.776-12.776 12.776 3.224 3.224 12.776-12.776 12.776 12.776 3.224-3.224-12.776-12.776 12.776-12.776z"></path>
+</symbol>
+
 </defs>
 </svg>
