@@ -7,6 +7,18 @@
       finest ingredients and handcrafted with the utmost care, each piece is a
       work of art that is sure to please.
     </p>
-    <button class="subscribe-button">Subscribe</button>
+    <button type="button" class="subscribe-button" data-modal-open>Subscribe</button>
+
+    <!-- Modal -->
+    <div class="subscribe-overlay" data-modal="1">
+      <div class="subscribe-modal">
+        <img class="subscribe-modal-img" src="../img/Subscribe-modal-desk.jpg" alt="Chocolate">
+        <button class="subscribe-modal-icon" type="button" data-modal-close>
+          <svg width="28" height="28">
+            <use href="./img/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
   </div>
 </section>
