@@ -128,12 +128,6 @@
   }
 }
 
-/* @media (max-width: 767px) {
-  .subscribe-modal-img {
-    background-image: url("/img/Subscribe-modal-mobile@2x.jpg");
-  }
-} */
-
 .subscribe-overlay {
   opacity: 1;
   visibility: visible;
