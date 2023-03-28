@@ -23,6 +23,15 @@
   margin-top: 62px;
 }
 
+.subscribe-form-input:hover {
+  border: 1.5px solid var(--orange);
+}
+
+.subscribe-form-button:hover {
+  background-color: #fcf1e0;
+  color: var(--orange);
+}
+
 @media (min-width: 768px) and (max-width: 1199px) {
   .subscribe-title {
     margin-top: 72px;
@@ -131,14 +140,21 @@
 
 .subscribe-modal-icon {
   position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   top: 24px;
   right: 24px;
   width: 30px;
   height: 30px;
   stroke: var(--white);
-
   border: none;
+  border-radius: 50%;
   background-color: transparent;
+}
+
+.subscribe-modal-icon:hover {
+  background-color: var(--orange);
 }
 
 .subscribe-modal-title {
