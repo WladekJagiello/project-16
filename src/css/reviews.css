@@ -8,6 +8,21 @@
   margin-bottom: 32px;
 }
 
+.review-form-input:hover {
+  border: 2px solid var(--orange);
+}
+
+.modal-close:hover {
+  border-radius: 50%;
+  background-color: var(--orange);
+}
+
+.modal-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .reviews .swiper {
     margin-bottom: 50px;
