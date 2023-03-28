@@ -115,7 +115,7 @@ img {
 .header-nav-list {
   display: none;
 }
-   /* @media screen and (min-width: 768px) { 
+    /* @media screen and (min-width: 768px) { 
   .header-nav-list {
     display: flex;
     gap: 24px;
@@ -154,20 +154,7 @@ img {
 .current-link {
   color: var(--orange);
 }
-/* .current {
-  position: relative;  
-} */
-/* .current::after {
-  position: absolute;
-  content: '';
-  bottom: -1px;
-  display: block;
-  width: 40px;
-  text-decoration: underline;
-  height: 1px;
-  border-radius: 3px;
-  background-color: #FD9222;
-} */
+
 .mobile-span {
   position: relative;
 
@@ -187,12 +174,12 @@ img {
 .header-networks-list {
   display: none;
 }
-/* @media screen and (min-width: 768px) {
+ /* @media screen and (min-width: 768px) {
   .header-networks-list {
     display: flex;
     gap: 18px;
   }
-}  */
+}   */
 
  @media screen and (min-width: 1200px) {
   .header-networks-list {
@@ -204,22 +191,6 @@ img {
 .header-networks-icon {
   display: none;
 }
-
-@media screen and (min-width: 1200px) {
-  .header-networks-icon {
-    stroke: var(--black);
-    fill-opacity: 0;
-    width: 24px;
-    height: 24px;
-    gap: 18px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-}
-.header-networks-icon:hover,
-.header-networks-icon:focus {
-  stroke: var(--orange);
-}
 /* .header-networks-icon {
   stroke: var(--black);
   fill-opacity: 0;
@@ -227,12 +198,27 @@ img {
   height: 24px;
   gap: 18px;
 } */
+@media screen and (min-width: 1200px) {
+  .header-networks-icon {
+    stroke: var(--black);
+    fill-opacity: 0;
+    width: 24px;
+    height: 24px;
+    gap: 18px;
+     /* padding-top: 24px; */ 
+    /* padding-bottom: 24px; */
+  }
+}
+.header-networks-icon:hover,
+.header-networks-icon:focus {
+  stroke: var(--orange);
+}
+ 
 /* @media screen and (min-width: 1200px) {
   .header-networks-icon {
-    padding-top: 24px;
-    padding-bottom: 24px;
-  }
-} */
+    /* padding-top: 24px;
+    padding-bottom: 24px; */
+
 /* ----------------------------mobile menu------------- */
 .mobile-menu {}
 
@@ -292,6 +278,10 @@ img {
 }
 .mobile-close-icon:hover,
 .mobile-close-icon:focus {
+  stroke: var(--orange);
+}
+.icon-link:hover,
+.icon-linkn:focus {
   stroke: var(--orange);
 }
 /* ----------------------------mobile-navigation------------ */
