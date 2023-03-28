@@ -25,7 +25,7 @@
     
     <title>Simply Chocolate</title>
     <script type="module" crossorigin src="/project-16/assets/index-77967bdc.js"></script>
-    <link rel="stylesheet" href="/project-16/assets/index-9db7f249.css">
+    <link rel="stylesheet" href="/project-16/assets/index-78d21923.css">
   </head>
 
   <body>
@@ -725,7 +725,19 @@
       finest ingredients and handcrafted with the utmost care, each piece is a
       work of art that is sure to please.
     </p>
-    <button class="subscribe-button">Subscribe</button>
+    <button type="button" class="subscribe-button" data-modal-open>Subscribe</button>
+
+    <!-- Modal -->
+    <div class="subscribe-overlay" data-modal="1">
+      <div class="subscribe-modal">
+        <img class="subscribe-modal-img" src="../img/Subscribe-modal-desk.jpg" alt="Chocolate">
+        <button class="subscribe-modal-icon" type="button" data-modal-close>
+          <svg width="28" height="28">
+            <use href="/project-16/assets/icons-977f5507.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
   </div>
 </section>
     </main>
