@@ -1,6 +1,16 @@
 .subscribe {
   height: 370px;
   background-image: url("/img/Subcribe-desk.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .subscribe {
+    background-image: url("/img/Subcribe-desk@2x.jpg");
+  }
 }
 
 .subscribe .container {
@@ -117,6 +127,12 @@
     height: 412px;
   }
 }
+
+/* @media (max-width: 767px) {
+  .subscribe-modal-img {
+    background-image: url("/img/Subscribe-modal-mobile@2x.jpg");
+  }
+} */
 
 .subscribe-overlay {
   opacity: 1;
