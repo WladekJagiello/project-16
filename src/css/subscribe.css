@@ -24,49 +24,35 @@
 
 .subscribe-title {
   color: var(--white);
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: var(--font-weight-hh);
+  font-size: var(--font-size-h);
   line-height: 24px;
-  letter-spacing: -0.03em;
+  letter-spacing: var(--letter-spacing-h);
   text-align: center;
   width: 291px;
   margin-top: 62px;
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 768px) {
   .subscribe-title {
     margin-top: 72px;
-    font-size: 24px;
-    line-height: 28px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .subscribe-title {
-    margin-top: 72px;
-    font-size: 24px;
+    font-size: var(--font-size-hh);
     line-height: 28px;
   }
 }
 
 .subscribe-text {
   color: var(--white);
-  font-weight: 400;
-  font-size: 14px;
+  font-weight: var(--font-weight-p);
+  font-size: var(--font-size-pp);
   line-height: 18px;
-  letter-spacing: -0.02em;
+  letter-spacing: var(--letter-spacing-p);
   text-align: center;
 
   width: 326px;
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
-  .subscribe-text {
-    width: 467px;
-  }
-}
-
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
   .subscribe-text {
     width: 467px;
   }
@@ -79,8 +65,8 @@
   padding: 12px 28px;
   border-radius: 100px;
   border: none;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: var(--font-weight-hh);
+  font-size: var(--font-size-pp);
   line-height: 17px;
 }
 
@@ -119,12 +105,6 @@
   }
 }
 
-/* @media (max-width: 767px) {
-  .subscribe-modal-img {
-    background-image: url("/img/Subscribe-modal-mobile@2x.jpg");
-  }
-} */
-
 .subscribe-overlay {
   opacity: 1;
   visibility: visible;
@@ -158,10 +138,10 @@
 }
 
 .subscribe-modal-title {
-  font-weight: 600;
-  font-size: 20px;
+  font-weight: var(--font-weight-hh);
+  font-size: var(--font-size-h);
   line-height: 24px;
-  letter-spacing: -0.03em;
+  letter-spacing: var(--letter-spacing-h);
   text-transform: uppercase;
 
   padding: 32px 24px 24px 24px;
@@ -169,7 +149,7 @@
 
 @media (min-width: 768px) {
   .subscribe-modal-title {
-    font-size: 24px;
+    font-size: var(--font-size-hh);
     line-height: 28px;
     padding: 40px 40px 28px 40px;
   }
@@ -199,14 +179,14 @@
 
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   border-radius: 30px;
-  font-size: 14px;
+  font-size: var(--font-size-pp);
 }
 
 @media (min-width: 768px) {
   .subscribe-form-input {
     width: 313px;
     height: 52px;
-    font-size: 18px;
+    font-size: var(--font-size-ppp);
     line-height: 22px;
 
     padding: 14px 24px;
@@ -220,8 +200,8 @@
   border: none;
   border-radius: 100px;
 
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: var(--font-weight-hh);
+  font-size: var(--font-size-pp);
   line-height: 17px;
   padding: 14px 22px;
 }
