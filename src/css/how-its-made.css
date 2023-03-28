@@ -1,18 +1,15 @@
 .recipe {
-  padding-top: 72px;
   padding-bottom: 72px;
 }
 
 @media (min-width: 768px) {
   .recipe {
-    padding-top: 100px;
     padding-bottom: 100px;
   }
 }
 
 @media (min-width: 768px) {
   .recipe {
-    padding-top: 128px;
     padding-bottom: 128px;
   }
 }
