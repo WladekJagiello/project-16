@@ -33,7 +33,7 @@ img {
 
 .header {
   color: #111111;
-  background-color: var(--white);  
+  background-color: var(--background);  
 } 
 @media screen and (min-width: 1200px) {
   .header-container {
@@ -65,7 +65,7 @@ img {
 }
 /* -------------Logo-icon */
 .logo-icon {
-  font-family: ;
+
   width: 28px;
   height: 28px;
 }
@@ -188,7 +188,7 @@ img {
 }
 
 .header-networks-icon {
-  stroke: #111111;
+  stroke: var(--black);
   fill-opacity: 0;
   width: 24px;
   height: 24px;
@@ -197,12 +197,12 @@ img {
 
 .header-networks-icon:hover,
 .header-networks-icon:focus {
-  color:#FD9222;
+  stroke: var(--orange);
 }
-.icon-link:hover,
+/* .icon-link:hover,
 .icon-link:focus {
   color: #FD9222;
-}
+} */
 @media screen and (min-width: 1200px) {
   .header-networks-icon {
      padding-top: 24px;
@@ -222,7 +222,7 @@ img {
     height: 100%;
     padding: 40px;
     padding-top: 156px;
-    background-color: #1E1823;
+    background-color: var(--purple);
     z-index: 1;
      transform: translateX(100%);    
      transition: transform 250ms ease-in-out;
@@ -245,7 +245,7 @@ img {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: var(--footer-text-color);
+  background-color: var(--purple);
   position: absolute;
   top: 40px;
   right: 40px;
@@ -254,9 +254,7 @@ img {
 
 .mobile-modal-close:hover,
 .mobile-modal-close:focus {
-  stroke:#FD9222;
-  color: #FD9222;
-  fill: #FD9222;
+  stroke: var(--orange);  
 }
 
 .js-close-menu {}
@@ -330,6 +328,6 @@ img {
   }
 .mobile-socials-icon:hover,
 .mobile-socials-icon:focus {
-  stroke: #FD9222;
+  stroke: var(--orange);
 }
 /* <use href="/project-16/assets/icons-5c8b89cc.svg#icon-instagram-desk-tab"></use> */
