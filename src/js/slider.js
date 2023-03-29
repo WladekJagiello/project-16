@@ -44,3 +44,22 @@ const swiperReviews = new Swiper(".reviews .swiper", {
     },
   },
 });
+
+const swiperBuyNow = new Swiper(".modal-buy-now .swiper", {
+  direction: "horizontal",
+  loop: true,
+
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+  },
+
+  slidesPerView: 1,
+
+  breakpoints: {
+    768: {
+      spaceBetween: 16,
+      slidesPerView: 3,
+    },
+  },
+});
