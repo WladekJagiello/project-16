@@ -141,6 +141,7 @@
           type="text"
           name="review-name"
           placeholder="Name"
+          required
         />
       </div>
 
@@ -150,6 +151,7 @@
           type="email"
           name="review-email"
           placeholder="Enter your email"
+          required
         />
       </div>
 
@@ -160,6 +162,8 @@
           name="review-phone"
           id="label-review-phone"
           placeholder="Phone number"
+          pattern="\+380[0-9]{9}"
+          required
         />
         <label class="label-review-phone" for="label-review-phone">
           <svg class="flag-icon">
@@ -174,6 +178,7 @@
           class="review-form-input textarea"
           name="review-text"
           placeholder="Enter text"
+          required
         ></textarea>
       </div>
     </div>
