@@ -1,4 +1,6 @@
 .header {
+  color: var(--black);
+  background-color: var(--background);
 }
 
 .navbar {
@@ -73,7 +75,7 @@
   color: var(--orange);
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -84,17 +86,17 @@
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+} */
 
 .current-link {
   color: var(--orange);
 }
 
-.mobile-span {
+/* .mobile-span {
   position: relative;
-}
+} */
 
-.mobile-span:hover::after {
+/* .mobile-span:hover::after {
   position: absolute;
   content: "";
   bottom: -1px;
@@ -104,26 +106,26 @@
   height: 1px;
   border-radius: 4px;
   background-color: #fd9222;
-}
+} */
 
-.header-networks-list {
+/* .header-networks-list {
   display: none;
-}
+} */
 
-.header-networks-icon {
+/* .header-networks-icon {
   display: none;
-}
+} */
 
-.header-networks-icon:hover,
+/* .header-networks-icon:hover,
 .header-networks-icon:focus {
   stroke: var(--orange);
-}
+} */
 
-.mobile-menu.is-open {
+/* .mobile-menu.is-open {
   transform: translateX(0);
-}
+} */
 
-.mobile-modal-close {
+/* .mobile-modal-close {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -136,35 +138,35 @@
   top: 40px;
   right: 40px;
   border-color: transparent;
-}
+} */
 
-.mobile-modal-close:hover,
+/* .mobile-modal-close:hover,
 .mobile-modal-close:focus {
   stroke: var(--orange);
-}
+} */
 
-.mobile-close-icon {
+/* .mobile-close-icon {
   stroke: var(--white);
   fill-opacity: 0;
   height: 24px;
   width: 24px;
-}
+} */
 
-.mobile-close-icon:hover,
+/* .mobile-close-icon:hover,
 .mobile-close-icon:focus {
   stroke: var(--orange);
-}
+} */
 
-.icon-link:hover,
+/* .icon-link:hover,
 .icon-linkn:focus {
   stroke: var(--orange);
-}
+} */
 
-.mobile-menu-items {
+/* .mobile-menu-items {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
+} */
 
 .mobile-site-nav {
   display: flex;
@@ -176,12 +178,12 @@
 .mobile-nav-link {
   display: block;
   color: var(--white);
-
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: -0.02em;
 }
+
 .mobile-nav-link:hover,
 .mobile-nav-link:focus {
   color: var(--orange);
