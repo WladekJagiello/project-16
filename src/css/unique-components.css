@@ -48,7 +48,6 @@
 }
 
 .components-img {
-  width: 224px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -225,12 +224,13 @@
   }
 
   .components-list-container {
+    width: 100%;
+    height: 270px;
     flex-direction: column;
   }
 
-  .components-item {
-    width: 335px;
-    height: 270px;
+  .components-img {
+    max-width: 224px;
   }
 
   .second-list {
