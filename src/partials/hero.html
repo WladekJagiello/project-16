@@ -33,4 +33,158 @@
       </div>
     </div>
   </div>
+  <div class="backdrop is-hidden">
+    <div class="modal modal-buy-now" data-modal="7">
+      <button type="button" class="modal-close-btnx js-modal-close">
+        <svg width="14" height="14" class="close-icon">
+          <use href="../img/icons.svg#icon-close-x"></use>
+        </svg>
+      </button>
+      <h3 class="modal-logo-title"><span class="modal-logo">bUY</span> NOW</h3>
+      <ul class="modal-buy-items">
+        <li class="modal-buy-item">
+          <img
+            srcset="
+              ./img/mod-buy-now-img-1-120.jpg 120w,
+              ./img/mod-buy-now-img-1-167.jpg 167w,
+              ./img/mod-buy-now-img-1-240.jpg 240w,
+              ./img/mod-buy-now-img-1-334.jpg 334w
+            "
+            src="./img/mod-buy-now-img-1-167.jpg"
+            sizes="(min-width: 1200px) 120px, (min-width: 768px) 120px, (min-width: 480px) 167px, 100vw"
+            alt="картинка_1"
+            width="167"
+            height="148"
+          />
+          <button class="buy-product-btn">100 g</button>
+        </li>
+
+        <li class="modal-buy-item">
+          <img
+            srcset="
+              /img/mod-buy-now-img-2-120.jpg 120w,
+              /img/mod-buy-now-img-2-167.jpg 167w,
+              /img/mod-buy-now-img-2-240.jpg 240w,
+              /img/mod-buy-now-img-2-334.jpg 334w
+            "
+            src="/img/mod-buy-now-img-2-167.jpg"
+            sizes="(min-width: 1200px) 120px, (min-width: 768px) 120px, (min-width: 480px) 167px, 100vw"
+            alt="картинка_2"
+            width="167"
+            height="148"
+          />
+          <button class="buy-product-btn">200 g</button>
+        </li>
+        <li class="modal-buy-item">
+          <img
+            srcset="
+              /img/mod-buy-now-img-3-120.jpg 120w,
+              /img/mod-buy-now-img-3-167.jpg 167w,
+              /img/mod-buy-now-img-3-240.jpg 240w,
+              /img/mod-buy-now-img-3-334.jpg 334w
+            "
+            src="/img/mod-buy-now-img-3-167.jpg"
+            sizes="(min-width: 1200px) 120px, (min-width: 768px) 120px, (min-width: 480px) 167px, 100vw"
+            alt="картинка_3"
+            width="167"
+            height="148"
+          />
+          <button class="buy-product-btn">300 g</button>
+        </li>
+      </ul>
+      <form class="modal-form">
+        <div class="modal-field">
+          <label for="user-name" class="input-text">Personal information</label>
+          <div class="input-wrap">
+            <input
+              type="text"
+              class="modal-input"
+              name="user-name"
+              placeholder="Name"
+              required
+              id="user-name"
+            />
+            <input
+              type="text"
+              class="modal-input"
+              name="user-surname"
+              placeholder="Surname"
+              required
+              id="user-surname"
+            />
+          </div>
+          <label for="user-email" class="input-text">Email</label>
+
+          <div class="input-wrap">
+            <input
+              type="email"
+              class="modal-input mod"
+              name="user-email"
+              placeholder="Enter your email"
+              required
+              id="user-email"
+            />
+          </div>
+          <label for="user-tel" class="input-text">Phone number</label>
+          <div class="input-wrap">
+            <input
+              type="tel"
+              class="modal-input mob-phone"
+              name="user-tel"
+              placeholder="Phone number"
+              id="user-tel"
+            />
+            <svg class="input-icon" width="32" height="32">
+              <use href="./img/icons.svg#icon-prapor"></use>
+            </svg>
+          </div>
+          <label for="user-card" class="input-text">Card number</label>
+          <div class="input-wrap">
+            <input
+              type="number"
+              class="modal-input mod"
+              name="user-card"
+              placeholder="Enter card"
+              id="user-card"
+            />
+            <svg class="input-icon-card" width="30" height="18">
+              <use href="./img/icons.svg#icon-mastercard"></use>
+            </svg>
+          </div>
+        </div>
+        <label for="user-comment" class="input-text">Comment</label>
+        <div class="modal-field">
+          <textarea
+            class="modal-input comment"
+            name="user-comment"
+            placeholder="Enter text"
+            id="user-comment"
+          ></textarea>
+        </div>
+        <button
+          type="submit"
+          class="js-open-modal js-modal-close submit-btn btn"
+          data-modal="8"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="thanks is-hidden">
+    <div class="modal modal-thank-you" data-modal="8">
+      <button type="button" class="modal-close-btn js-modal-close">
+        <svg width="16" height="16" class="close-icon">
+          <use href="/img/icons.svg#icon-close-x"></use>
+        </svg>
+      </button>
+      <h3 class="title-thank-you">THANK YOU!</h3>
+      <p class="thank-you-text">
+        We are glad that you ordered our chocolate and we are giving you a 20%
+        discount on all our products.
+      </p>
+    </div>
+  </div>
+  <div class="overlay js-overlay-modal"></div>
 </section>
