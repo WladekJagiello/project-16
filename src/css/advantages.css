@@ -50,6 +50,7 @@
   .advantages-list {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 50px;
   }
 
   .advantages-item:first-child {

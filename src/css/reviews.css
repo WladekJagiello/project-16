@@ -384,10 +384,10 @@
 .modal-gratitude .modal-icon {
   width: 16px;
   height: 16px;
-  stroke: #d44528;
+  stroke: var(--red);
 }
 
 .modal-gratitude .modal-close:hover,
 .modal-gratitude .modal-close:focus {
-  stroke: #d44528;
+  stroke: var(--red);
 }
