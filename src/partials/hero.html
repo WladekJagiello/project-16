@@ -100,6 +100,7 @@
               type="text"
               name="name"
               placeholder="Name"
+              required
             />
             <input
               class="buy-now-form-input"
@@ -119,6 +120,7 @@
             type="email"
             name="email"
             placeholder="Enter your email"
+            required
           />
         </div>
 
@@ -131,6 +133,8 @@
               type="tel"
               name="phone"
               placeholder="Phone number"
+              pattern="\+380[0-9]{9}"
+              required
             />
             <label class="label-phone" for="phone">
               <svg class="flag-icon">
@@ -150,6 +154,7 @@
               type="number"
               name="card"
               placeholder="Enter card"
+              required
             />
             <div class="card-container">
               <svg class="card-icon">
