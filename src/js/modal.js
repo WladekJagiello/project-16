@@ -83,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 }); // end ready
 
-const modal = document.querySelector(".modal");
+const modal = document.querySelector(".js-overlay-modal");
 
 // Створюємо новий MutationObserver, який буде слідкувати за змінами в класі modal
 const observer = new MutationObserver(function (mutations) {
