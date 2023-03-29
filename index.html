@@ -271,6 +271,7 @@
               type="text"
               name="name"
               placeholder="Name"
+              required
             />
             <input
               class="buy-now-form-input"
@@ -290,6 +291,7 @@
             type="email"
             name="email"
             placeholder="Enter your email"
+            required
           />
         </div>
 
@@ -302,6 +304,8 @@
               type="tel"
               name="phone"
               placeholder="Phone number"
+              pattern="\+380[0-9]{9}"
+              required
             />
             <label class="label-phone" for="phone">
               <svg class="flag-icon">
@@ -321,6 +325,7 @@
               type="number"
               name="card"
               placeholder="Enter card"
+              required
             />
             <div class="card-container">
               <svg class="card-icon">
@@ -843,7 +848,9 @@
         called Cacao. Cacao has been around for thousands of years and was first
         discovered by the Native American tribe called the Mayans.
       </p>
-      <button class="sellers-button">Buy now</button>
+      <button class="js-open-modal sellers-button" type="button" data-modal="5">
+        Buy now
+      </button>
     </div>
   </div>
 </section>
@@ -992,6 +999,7 @@
           type="text"
           name="review-name"
           placeholder="Name"
+          required
         />
       </div>
 
@@ -1001,6 +1009,7 @@
           type="email"
           name="review-email"
           placeholder="Enter your email"
+          required
         />
       </div>
 
@@ -1011,6 +1020,8 @@
           name="review-phone"
           id="label-review-phone"
           placeholder="Phone number"
+          pattern="\+380[0-9]{9}"
+          required
         />
         <label class="label-review-phone" for="label-review-phone">
           <svg class="flag-icon">
@@ -1025,6 +1036,7 @@
           class="review-form-input textarea"
           name="review-text"
           placeholder="Enter text"
+          required
         ></textarea>
       </div>
     </div>
