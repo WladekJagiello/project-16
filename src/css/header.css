@@ -200,6 +200,7 @@ img {
 } */
 @media screen and (min-width: 1200px) {
   .header-networks-icon {
+    display: flex;
     stroke: var(--black);
     fill-opacity: 0;
     width: 24px;
