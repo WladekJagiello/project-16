@@ -116,15 +116,19 @@
 
 .modal-reviews {
   padding: 32px 24px;
-  width: 100%;
   max-width: 311px;
+  max-height: 471px;
+  width: 100%;
+  height: calc(100% - 20px);
   background-color: var(--background);
+  overflow-y: auto;
 }
 
 @media (min-width: 768px) {
   .modal-reviews {
     padding: 40px;
     max-width: 517px;
+    max-height: 631px;
   }
 }
 

@@ -82,17 +82,19 @@ document.addEventListener("DOMContentLoaded", function () {
     this.classList.remove("active");
   });
 }); // end ready
-// (() => {
-//   const refs = {
-//     openModalBtn: document.querySelector("[data-modal-open]"),
-//     closeModalBtn: document.querySelector("[data-modal-close]"),
-//     modal: document.querySelector("[data-modal]"),
-//   };
 
-//   refs.openModalBtn.addEventListener("click", toggleModal);
-//   refs.closeModalBtn.addEventListener("click", toggleModal);
+const modal = document.querySelector(".modal");
 
-//   function toggleModal() {
-//     refs.modal.classList.toggle("is-hidden");
-//   }
-// })();
+// Створюємо новий MutationObserver, який буде слідкувати за змінами в класі modal
+const observer = new MutationObserver(function (mutations) {
+  // Якщо клас "active" з'явився поруч з класом "modal", то додаємо клас "modal-overflow" до body
+  if (modal.classList.contains("active")) {
+    document.body.classList.add("modal-overflow");
+  } else {
+    // Якщо клас "active" було видалено, видаляємо клас "modal-overflow" з body
+    document.body.classList.remove("modal-overflow");
+  }
+});
+
+// Налаштовуємо спостереження за змінами класу "modal"
+observer.observe(modal, { attributes: true });
