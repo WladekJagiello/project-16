@@ -221,14 +221,19 @@ img {
     padding-bottom: 24px; */
 
 /* ----------------------------mobile menu------------- */
-.mobile-menu {}
+.mobile-menu {
+  /* display: flex;
+  position: fixed; */
+  /* max-width: 220px; */
+
+}
 
 @media screen and (max-width: 767px) {
   .mobile-menu {
-    display: flex;
+    display: flex; 
     position: fixed;
     top: 0;
-    left: 0;
+    left: 155px;
     width: 100%;
     height: 100%;
     padding: 40px;
@@ -249,6 +254,7 @@ img {
 }
 
 .mobile-modal-close {
+  /* position:fixed;  */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -259,7 +265,8 @@ img {
   background-color: var(--purple);
   position: absolute;
   top: 40px;
-  right: 40px;
+  left: 180px;
+  /* right: 40px; */
   border-color: transparent;
 }
 
