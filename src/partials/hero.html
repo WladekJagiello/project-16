@@ -14,7 +14,13 @@
       <div class="hero-buttons-sckroll">
         <ul class="hero-buttons-list">
           <li class="hero-buttons-item">
-            <button class="left-button" type="button">Buy now</button>
+            <button
+              class="js-open-modal left-button"
+              type="button"
+              data-modal="5"
+            >
+              Buy now
+            </button>
           </li>
 
           <li class="hero-buttons-item">
@@ -34,3 +40,158 @@
     </div>
   </div>
 </section>
+
+<div class="modal modal-buy-now" data-modal="5">
+  <div class="modalBodyWrapper">
+    <button class="modal-close js-modal-close" type="button">
+      <svg class="modal-icon">
+        <use href="/img/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+
+    <h2 class="modal-title"><span class="highlight">Buy</span> now</h2>
+
+    <div class="swiper">
+      <ul class="swiper-wrapper products-buynow-list">
+        <li class="swiper-slide products-buynow-item">
+          <img
+            class="products-buynow-img"
+            srcset="/img/buy-now-1.jpg 1x, /img/buy-now-1@2x.jpg 2x"
+            src="/img/buy-now-1.jpg"
+            alt="product"
+          />
+          <button class="products-buynow-btn" type="button">100 g</button>
+        </li>
+
+        <li class="swiper-slide products-buynow-item">
+          <img
+            class="products-buynow-img"
+            srcset="/img/buy-now-2.jpg 1x, /img/buy-now-2@2x.jpg 2x"
+            src="/img/buy-now-2-mob.jpg"
+            alt="product"
+          />
+          <button class="products-buynow-btn" type="button">200 g</button>
+        </li>
+
+        <li class="swiper-slide products-buynow-item">
+          <img
+            class="products-buynow-img"
+            srcset="/img/buy-now-3.jpg 1x, /img/buy-now-3@2x.jpg 2x"
+            src="/img/buy-now-3-mob.jpg"
+            alt="product"
+          />
+          <button class="products-buynow-btn" type="button">300 g</button>
+        </li>
+      </ul>
+
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <form class="buy-now-form" name="buy-now-form" required>
+      <div class="form-group" role="group">
+        <div class="buy-now-form-field">
+          <label class="buy-now-form-label" for="user"
+            >Personal information</label
+          >
+          <div class="buy-now-form-container">
+            <input
+              class="buy-now-form-input"
+              id="user"
+              type="text"
+              name="name"
+              placeholder="Name"
+            />
+            <input
+              class="buy-now-form-input"
+              id="user"
+              type="text"
+              name="surame"
+              placeholder="Surname"
+            />
+          </div>
+        </div>
+
+        <div class="buy-now-form-field">
+          <label class="buy-now-form-label" for="email">Email</label>
+          <input
+            class="buy-now-form-input"
+            id="email"
+            type="email"
+            name="email"
+            placeholder="Enter your email"
+          />
+        </div>
+
+        <div class="buy-now-form-field">
+          <label class="buy-now-form-label" for="phone">Phone number</label>
+          <div class="label-container-phone">
+            <input
+              class="buy-now-form-input"
+              id="phone"
+              type="tel"
+              name="phone"
+              placeholder="Phone number"
+            />
+            <label class="label-phone" for="phone">
+              <svg class="flag-icon">
+                <use href="/img/icons.svg#icon-prapor"></use>
+              </svg>
+              <span class="label-text">+380</span>
+            </label>
+          </div>
+        </div>
+
+        <div class="buy-now-form-field">
+          <label class="buy-now-form-label" for="card">Card number</label>
+          <div class="label-container-card">
+            <input
+              class="buy-now-form-input"
+              id="card"
+              type="number"
+              name="card"
+              placeholder="Enter card"
+            />
+            <div class="card-container">
+              <svg class="card-icon">
+                <use href="/img/icons.svg#icon-mastercard"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="buy-now-form-field">
+          <label class="buy-now-form-label" for="comment">Comment</label>
+          <textarea
+            class="buy-now-form-input textarea"
+            id="comment"
+            name="comment"
+            placeholder="Enter text"
+          ></textarea>
+        </div>
+      </div>
+
+      <button
+        class="buy-now-button js-open-modal js-modal-close"
+        type="submit"
+        data-modal="6"
+      >
+        Submit
+      </button>
+    </form>
+  </div>
+</div>
+
+<div class="modal modal-gratitude second" data-modal="6">
+  <button class="js-modal-close modal-close" type="button">
+    <svg class="modal-icon">
+      <use href="/img/icons.svg#icon-close"></use>
+    </svg>
+  </button>
+  <h2 class="modal-title">thank you</h2>
+  <p class="modal-text">
+    We are glad that you ordered our chocolate and we are giving you a 20%
+    discount on all our products.
+  </p>
+</div>
+
+<div class="overlay js-overlay-modal"></div>

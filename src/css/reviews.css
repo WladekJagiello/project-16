@@ -8,6 +8,10 @@
   margin-bottom: 32px;
 }
 
+.review-form {
+  overflow: auto;
+}
+
 .review-form-input:hover {
   border: 2px solid var(--orange);
 }
@@ -115,7 +119,7 @@
   padding: 32px 24px;
   width: 100%;
   max-width: 311px;
-  background-color: var(--white);
+  background-color: var(--background);
 }
 
 @media (min-width: 768px) {
@@ -173,6 +177,7 @@
   letter-spacing: var(--letter-spacing-p);
   color: var(--black);
   border: 2px solid rgba(17, 17, 17, 0.05);
+  background-color: transparent;
   border-radius: 8px;
 }
 
