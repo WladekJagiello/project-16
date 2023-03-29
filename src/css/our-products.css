@@ -104,6 +104,6 @@
 .swiper-pagination-bullet-active {
   width: 28px;
   height: 13px;
-  background-color: #fd9222;
+  background-color: var(--orange);
   border-radius: 32px;
 }

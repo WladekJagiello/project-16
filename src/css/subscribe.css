@@ -24,10 +24,10 @@
 
 .subscribe-title {
   color: var(--white);
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: -0.03em;
+  font-weight: var(--font-weight-hh);
+  font-size: var(--font-size-h);
+  line-height: var(--line-height-h);
+  letter-spacing: var(--letter-spacing-h);
   text-align: center;
   width: 291px;
   margin-top: 62px;
@@ -60,10 +60,10 @@
 
 .subscribe-text {
   color: var(--white);
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: -0.02em;
+  font-weight: var(--font-weight-p);
+  font-size: var(--font-size-pp);
+  line-height: var(--line-height-h);
+  letter-spacing: var(--letter-spacing-h);
   text-align: center;
 
   width: 326px;
@@ -88,9 +88,9 @@
   padding: 12px 28px;
   border-radius: 100px;
   border: none;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
+  font-weight: var(--font-weight-hh);
+  font-size: var(--font-size-pp);
+  line-height: var(--font-size-p);
 }
 
 .subscribe-button:hover,
@@ -168,10 +168,10 @@
 }
 
 .subscribe-modal-title {
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-  letter-spacing: -0.03em;
+  font-weight: var(--font-weight-hh);
+  font-size: var(--font-size-h);
+  line-height: var(--line-height-h);
+  letter-spacing: var(--letter-spacing-h);
   text-transform: uppercase;
 
   padding: 32px 24px 24px 24px;
@@ -179,8 +179,8 @@
 
 @media (min-width: 768px) {
   .subscribe-modal-title {
-    font-size: 24px;
-    line-height: 28px;
+    font-size: var(--font-size-hh);
+    line-height: var(--line-height-p);
     padding: 40px 40px 28px 40px;
   }
 }
@@ -209,7 +209,7 @@
 
   border: 1.5px solid rgba(17, 17, 17, 0.05);
   border-radius: 30px;
-  font-size: 14px;
+  font-size: var(--font-size-pp);
 }
 
 @media (min-width: 768px) {
@@ -230,9 +230,9 @@
   border: none;
   border-radius: 100px;
 
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 17px;
+  font-weight: var(--font-weight-hh);
+  font-size: var(--font-size-pp);
+  line-height: var(--line-height-h);
   padding: 14px 22px;
 }
 

@@ -7,11 +7,11 @@
 .sellers-title{
 font-family: 'Montserrat';
 font-style: normal;
-font-weight: 600;
-font-size: 24px;
+font-weight: var(--font-weight-hh);
+font-size: var(--font-size-hh);
 line-height: 1.16;
 text-align: center;
-letter-spacing: -0.03em;
+letter-spacing: var(--letter-spacing-h);
 text-transform: uppercase;
 
 margin-bottom: 32px;
@@ -85,11 +85,11 @@ margin-bottom: 32px;
 .sellers-text{
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.3;
+  font-weight: var(--font-weight-p);
+  font-size: var(--font-size-pp);
+  line-height: var(--line-height-hh);
 
-  letter-spacing: -0.02em;
+  letter-spacing: var(--letter-spacing-p);
 
   color: #111111;
 
@@ -133,9 +133,9 @@ margin-bottom: 32px;
 .sellers-button {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 1.2;
+  font-weight: var(--font-weight-hh);
+  font-size: var(--font-size-pp);
+  line-height: var(--line-height-h);
   color: var(--white);
 
   background-color: var(--orange);
@@ -151,7 +151,7 @@ margin-bottom: 32px;
 
 @media screen and (min-width: 768px){
   .sellers-button{
-    font-size: 18px;
+    font-size: var(--font-size-ppp);
 
     width: 162px;
     height: 50px;
@@ -162,7 +162,7 @@ margin-bottom: 32px;
 
 @media screen and (min-width: 768px){
   .sellers-button{
-    font-size: 18px;
+    font-size: var(--font-size-ppp);
 
     width: 162px;
     height: 50px;
@@ -173,7 +173,7 @@ margin-bottom: 32px;
 
 .sellers-button:hover,
 .sellers-button:focus{
-  background-color: #FCF1E0;
-  color: #FD9222;
+  background-color: var(--beige);
+  color: var(--orange);
 }
 
