@@ -1,12 +1,12 @@
 .products {
-  margin-bottom: 72px;
+  padding-bottom: 72px;
   color: var(--black);
   text-align: center;
 }
 
 @media (min-width: 768px) {
   .products {
-    margin-bottom: 100px;
+    padding-bottom: 100px;
   }
 }
 
