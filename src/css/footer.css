@@ -23,10 +23,10 @@ footer {
 .footer-title {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 500;
-  font-size: 28px;
-  line-height: 1.2;
-  letter-spacing: -0.02em;
+  font-weight: var(--font-weight-h);
+  font-size: var(--font-size-hhh);
+  line-height: var(--line-height-h);
+  letter-spacing: var(--letter-spacing-p);
   color: var(--orange);
   width: 300px;
 }
@@ -43,9 +43,9 @@ footer {
 .contacts {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 18px;
+  font-weight: var(--font-weight-h);
+  font-size: var(--font-size-pp);
+  line-height: var(--line-height-h);
   color: var(--white);
   margin-bottom: 14px;
 }
@@ -53,10 +53,10 @@ footer {
 .contacts-item {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 18px;
-  letter-spacing: -0.02em;
+  font-weight: var(--font-weight-p);
+  font-size: var(--font-size-pp);
+  line-height: var(--line-height-h);
+  letter-spacing: var(--letter-spacing-p);
   color: var(--white);
   margin-bottom: 4px;
 }
@@ -118,12 +118,12 @@ footer {
 .footer-nav-item {
   font-family: "Montserrat";
   font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.1;
+  font-weight: var(--font-weight-h);
+  font-size: var(--font-size-pp);
+  line-height: var(--line-height-p);
   display: flex;
   align-items: center;
-  letter-spacing: -0.02em;
+  letter-spacing: var(--letter-spacing-p);
   color: var(--white);
 }
 
