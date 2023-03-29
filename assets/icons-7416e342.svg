@@ -18,9 +18,12 @@
 <symbol id="icon-advantages-3" viewBox="0 0 32 32">
 <path fill="#fd9222" style="fill: var(--color2, #fd9222)" d="M15.452 14.106c-0.733-0.884-1.177-2.030-1.177-3.279 0-0.001 0-0.002 0-0.003v0c0-4.324 5.181-8.642 10.362-8.642 2.861 0.001 5.18 2.321 5.181 5.182v0c0 5.182-4.317 10.364-8.646 10.364-0.001 0-0.002 0-0.003 0-1.249 0-2.395-0.444-3.287-1.184l0.009 0.007-12.758 12.761c-0.308 0.287-0.723 0.463-1.178 0.463-0.955 0-1.73-0.775-1.73-1.73 0-0.456 0.176-0.87 0.464-1.179l-0.001 0.001 12.764-12.761z"></path>
 </symbol>
-<symbol id="icon-burger" viewBox="0 0 32 32">
-<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.8571" d="M2.286 16h27.429M2.286 6.857h27.429M2.286 25.143h27.429"></path>
+<symbol id="icon-hamburger" viewBox="0 0 47 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="4.3636" d="M1.961 29.153h42.964M1.961 15.615h42.964M1.961 2.077h42.964"></path>
 </symbol>
+<!-- <symbol id="icon-burger" viewBox="0 0 32 32">
+<path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.8571" d="M2.286 16h27.429M2.286 6.857h27.429M2.286 25.143h27.429"></path>
+</symbol> -->
 <symbol id="icon-close" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M24 8l-16 16"></path>
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2" d="M8 8l16 16"></path>
