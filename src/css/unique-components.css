@@ -41,7 +41,7 @@
   margin-left: auto;
 }
 
-.components-item {
+.components-list {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -225,8 +225,12 @@
 
   .components-list-container {
     width: 100%;
-    height: 270px;
     flex-direction: column;
+  }
+
+  .components-item {
+    max-width: 335px;
+    height: 270px;
   }
 
   .components-img {
