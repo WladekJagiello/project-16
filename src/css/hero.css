@@ -192,8 +192,8 @@
 
   .hero-backgrounb {
     width: 704px;
-    padding-top: 671px;
     background-image: url("/img/hero-tab.jpg");
+    background-size: cover;
     border-radius: 30px;
   }
 
