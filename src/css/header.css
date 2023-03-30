@@ -336,6 +336,10 @@ img {
   .header-networks-icon {
     display: flex;
     gap: 18px;
+    width: 24px;
+    height: 24px;
+    fill-opacity: 0;
+    stroke: var(--black);
   }
 
   .nav-link:hover,
