@@ -121,7 +121,7 @@ img {
   height: 100%;
   padding-top: 136px;
   background-color: var(--purple);
-  z-index: 1;
+  z-index: 99;
   transform: translateX(100%);
   transition: transform 250ms ease-in-out;
 }
@@ -241,7 +241,7 @@ img {
     height: 100%;
     padding-top: 136px;
     background-color: var(--purple);
-    z-index: 1;
+    z-index: 99;
     transform: translateX(100%);
     transition: transform 250ms ease-in-out;
   }
@@ -353,8 +353,6 @@ img {
   .nav-link:focus {
     color: var(--orange);
   }
-
-    
 
   /* .header-networks-icon {
     stroke: var(--orange);
