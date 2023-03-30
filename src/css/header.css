@@ -267,7 +267,7 @@ img {
     background-color: var(--purple);
     position: absolute;
     top: 20px;
-    left: 250px;
+    left: 215px;
     border: 0;
     border-color: transparent;
     border-radius: 50%;
@@ -282,88 +282,68 @@ img {
 }
 
 @media (min-width: 1200px) {
-  .nav-link {
-    padding-top: 0;
-    padding-bottom: 0;
+  .header {
+    height: 80px;
+    padding-top: 24px;
+    padding-bottom: 32px;
   }
-}
 
-@media screen and (min-width: 1200px) {
-  .logo {
-    font-size: 18px;
-    line-height: 1.11;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .logo-icon {
-    width: 32px;
-    height: 32px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .logo-icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 188px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
   .menu-hamburger {
     display: none;
   }
-}
 
-@media screen and (min-width: 1200px) {
-  .header-nav-list {
+  .navbar {
     display: flex;
-    gap: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 24px;
   }
-}
 
-@media screen and (min-width: 1200px) {
+  .simply,
+  .chocolate {
+    font-size: var(--font-size-ppp);
+    line-height: var(--line-height-p);
+  }
+
+  .logo-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .header-nav-list,
+  .header-networks-icon {
+    display: flex;
+  }
+
+  .nav-link {
+    font-weight: var(--font-weight-h);
+    font-size: var(--font-size-pp);
+    line-height: var(--line-height-p);
+    letter-spacing: var(--letter-spacing-h);
+  }
+
+  .header-nav-item:not(:last-child) {
+    margin-right: 24px;
+  }
+
   .header-networks-list {
     display: flex;
     gap: 18px;
     flex-direction: row;
   }
-}
 
-@media screen and (min-width: 1200px) {
   .header-networks-icon {
     display: flex;
-    stroke: var(--black);
-    fill-opacity: 0;
-    width: 24px;
-    height: 24px;
     gap: 18px;
-    /* padding-top: 24px; */
-    /* padding-bottom: 24px; */
   }
-}
 
-.nav-link:hover,
-.nav-link:focus {
-  color: var(--orange);
-}
+  .nav-link:hover,
+  .nav-link:focus {
+    color: var(--orange);
+  }
 
-.nav-link {
-  display: block;
-  color: var(--black);
-  font-weight: 500;
-  line-height: 1.14;
-  font-size: 14px;
-  letter-spacing: -0.02em;
-  padding-top: 28px;
-  padding-bottom: 36px;
+  /* .header-networks-icon {
+    stroke: var(--orange);
+  } */
 }
-
-.header-networks-icon:hover {
-  stroke: var(--orange);
-}
-
-/* .mobile-menu {
-  display: none;
-} */
