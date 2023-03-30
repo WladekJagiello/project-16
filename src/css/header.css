@@ -353,7 +353,10 @@ img {
   .nav-link:focus {
     color: var(--orange);
   }
-
+  .header-networks-icon:hover,
+  .header-networks-icon:focus {
+    stroke: var(--orange);
+  }
   /* .header-networks-icon {
     stroke: var(--orange);
   } */
