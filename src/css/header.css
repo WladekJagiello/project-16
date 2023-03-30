@@ -334,14 +334,23 @@ img {
   }
 
   .header-networks-icon {
+    stroke: var(--black);
+    fill-opacity: 0;
     display: flex;
     gap: 18px;
+  }
+
+  .header-networks-icon:hover,
+  .header-networks-icon:focus {
+    stroke: var(--orange);
   }
 
   .nav-link:hover,
   .nav-link:focus {
     color: var(--orange);
   }
+
+    
 
   /* .header-networks-icon {
     stroke: var(--orange);
